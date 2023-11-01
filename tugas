@@ -1,0 +1,60 @@
+cd C:\Users\ASUS\Documents\NetBeansProjects\tugaspbo; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Program Files\\NetBeans-19\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.tugaspbo.Tugaspbo \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-19\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+-----------------------< com.mycompany:tugaspbo >-----------------------
+Building tugaspbo 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ tugaspbo ---
+skip non existing resourceDirectory C:\Users\ASUS\Documents\NetBeansProjects\tugaspbo\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ tugaspbo ---
+Changes detected - recompiling the module! :source
+Compiling 1 source file with javac [debug target 21] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ tugaspbo ---
+Input angka-1: 23
+Input angka-2: 32
+Hasil = 55.0
+Input angka-1: 56
+Input angka-2: 87
+Hasil = -31.0
+Input angka-1: 90
+Input angka-2: 89
+Hasil = 8010.0
+Input angka-1: 89
+Input angka-2: 89
+Hasil = 1.0
+Input angka-1: 89
+Input angka-2: 89
+Hasil = 0.0
+================================================
+Operator Pembanding
+Masukkan nilai A: 89
+Masukkan nilai B: 90
+Apakah A lebih besar dari B? false
+Apakah A lebih kecil dari B? true
+Apakah A sama dengan B? false
+Apakah A tidak sama dengan B? true
+Apakah A lebih besar atau sama dengan B? false
+Apakah A lebih kecil atau sama dengan B? true
+============================================================
+Masukkan nilai a: 90
+Masukkan nilai b: 89
+Hasil operasi AND: 88
+Hasil operasi OR: 91
+Hasil operasi XOR: 3
+Hasil operasi negasi: -91
+Masukkan nilai a: 89
+Masukkan nilai b: 89
+Hasil operasi Left Shift:-1308622848
+Masukkan nilai a: 78
+Masukkan nilai b: 90
+Hasil operasi Right Shift:0
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  50.114 s
+Finished at: 2023-11-01T23:08:47+07:00
+------------------------------------------------------------------------
